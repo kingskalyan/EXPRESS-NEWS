@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('https://th.bing.com/th/id/OIP.wGFDpwMmg5MZWBI5fQClOAHaHa?pid=ImgDet&rs=1');
+  background-image: cover;
 }
 
 code {

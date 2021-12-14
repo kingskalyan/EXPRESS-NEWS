@@ -1,7 +1,49 @@
 .App {
   text-align: center;
+  /* background-color:url('https://th.bing.com/th/id/OIP.wGFDpwMmg5MZWBI5fQClOAHaHa?pid=ImgDet&rs=1'); */
 }
 
+.test{
+  display: none;
+  overflow: hidden;
+}
+.bot{
+  width: 400px;
+  
+   height: 500px;
+   position: fixed;
+   border-style: none;
+   border-radius: 20px;
+   margin-left: 45%;
+   /* border-style: solid; */
+   background-color: #282c34;
+}
+
+.head{
+  margin:20px;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* align-items: center; */
+  justify-items: center;
+  width: 80%;
+  height: 40px;
+  /* text-align: center; */
+  border-radius: 20px;
+  border: 10px snow ;
+  text-indent: 20px;
+
+}
+.search{
+  display: inline;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px 20px;
+  border-style: none;
+  cursor: pointer;
+  background-color: azure;
+ 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,6 +54,37 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@media screen and (max-width: 320px) {
+  .head{
+    height: 20px;
+    width: 40px;
+  }
+  .search{
+    display: inline-block;
+    width:40px;
+    height: 20px;
+   overflow-x: hidden;
+   
+    /* text-overflow: ellipsis; */
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .bot{
+    width: 200px;
+    overflow: hidden;
+     height: 250px;
+     position: fixed;
+     border-style: none;
+     border-radius: 20px;
+     margin-left: 50%;
+     /* border-style: solid; */
+   
+  }
+  
+
+}
+  
+
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +108,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+.articles{
+  background-color:url('https://th.bing.com/th/id/OIP.wGFDpwMmg5MZWBI5fQClOAHaHa?pid=ImgDet&rs=1');
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.top{
+  text-align: center;
+}
+.article{
+  width: 90%;
+  color:white;
+  background-color: #282c34;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 20px rgb(0 0 0 /0.2)
+}
+.newsimg{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+
+.btn{
+  padding: 10px 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  background-color: #61dafb;
+  cursor: pointer;
+  border:none;
+  border-radius: 20px ;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.news{
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Courier, monospace';
 }
